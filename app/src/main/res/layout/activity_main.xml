@@ -10,22 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
+
+        <ImageView
+            android:id="@+id/img"
             android:layout_width="match_parent"
             android:layout_height="500dp"
-            android:id="@+id/container"
-            android:textSize="20sp"
             android:layout_gravity="center"
-            android:text="This is a CameraX test app!"
-            android:gravity="center">
-        </TextView>
+            android:gravity="center"/>
 
         <Button
-            android:id="@+id/enableCamera"
+            android:id="@+id/openGallery"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Open Camera" />
+            android:text="Open Gallery" />
     </LinearLayout>
 
 
